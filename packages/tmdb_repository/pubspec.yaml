@@ -1,0 +1,11 @@
+name: tmdb_repository
+description: A Dart package for the TMDB domain.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  tmdb_api:
+    path: ../tmdb_api
+  meta: ^1.2.3

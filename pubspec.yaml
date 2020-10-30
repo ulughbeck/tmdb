@@ -1,0 +1,36 @@
+name: tmdb
+description: A Flutter app for TMDB API.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  auto_route: ^0.6.9
+  intl: ^0.16.1
+  flutter_bloc: ^6.0.6
+  equatable: ^1.2.5
+
+  tmdb_repository:
+    path: packages/tmdb_repository
+
+  tmdb_api:
+    path: packages/tmdb_api
+    
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  pedantic: ^1.9.2
+  build_runner: ^1.10.0
+  grinder: ^0.8.6
+  flutter_launcher_icons: ^0.8.1
+  auto_route_generator: ^0.6.10
+
+flutter:
+  uses-material-design: true
+
